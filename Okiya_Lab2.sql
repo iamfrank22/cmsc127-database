@@ -1,6 +1,5 @@
 use okiya;
 
-/*
 #1
 select employee.Fname, employee.Minit, employee.Lname, employee.Address from employee
 inner join department on employee.Dno = department.Dnumber where department.Dname = 'Research';
@@ -44,7 +43,7 @@ from employee
 where Ssn
 not in (select ESSN from dependent);
 
-*/
+
 #7
 select employee.Fname, employee.Minit, employee.Lname
 from department
